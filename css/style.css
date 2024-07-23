@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins';
+}
+
+
+
+
+
+.container {
+    max-width: 1225px;
+    width: 100%;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+}
+
+.header {
+    box-shadow: 0px 0px 3px #091e42;
+    padding: 16px 0px;
+    background-color: blue;
+}
+
+.header__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.nav-list {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 16px;
+    position: relative;
+    left: 300px;
+}
+
+
+
+
+.nav-item>select,
+.nav-item a {
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: white;
+}
+
+.nav-item>*:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.lll{
+    position: relative;
+    right: 100px;
+    bottom: 5px;
+    color: white;
+}
+
+.nav-item{
+    position: relative;
+    right: 250px;
+}
+
+.nav-link{
+    margin-left: 50px;
+}
+
+.ozb{
+    position: relative;
+    left: 100px;
+    top: 10px;
+    cursor: pointer;
+    border: none;
+}
+button {
+    width:113px;
+    height:46px;
+   border-radius: 12px;
+   color:#5361E4;
+   position: relative;
+   bottom: 10px;
+   left: 66px;
+}   
+select{
+    position: relative;
+    bottom: 10px;
+    left: 38px;
+}
+
+/* end header */
+.color{
+    background-color: #FFFFFF;
+    border-radius: 510%;
+}
+
+.img{
+    position: relative;
+    top: 32px;
+}
+input{
+    border-radius: 16px;
+    width: 1250px;
+    height: 42px;
+}
+.class{
+    cursor: pointer;
+}
+.hhh{
+    width: 300px;
+}
+.hhhh{
+    width: 300px;
+}
+
+.sss{
+    position: relative;
+    left: 320px;
+    bottom: 62px;
+    width: 10px;
+}
+
+.yashash{
+    font-family: 'Poppins';
+}
+.inputjoy{
+    width: 702px;
+    height:40px;
+    padding: 18px 0px;
+    border-radius: 16px;
+    margin-top: 8px;
+}
+
+.hodimson{
+    font-family: 'Poppins';
+}
+
+.izoh{
+    font-family: 'Poppins';
+}
+
+
+.inputlari{
+    width: 702px;
+height: 148px;
+border-radius: 16px;
+}
+
+.c1{
+    font-family: 'Poppins';
+    width: 179.84px;
+height: 60px;
+top: 42px;
+left: 38px;
+border-radius: 16px ;
+
+}
+.c2{
+    font-family: 'Poppins';
+    width: 179.84px;
+    height: 60px;
+    top: 42px;
+    left: 38px;
+    border-radius: 16px ;
+    margin-left: 348px;
+    color: white;
+    background-color: #5361E4;
+}
